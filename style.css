@@ -1,0 +1,47 @@
+.markdown-body {
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 100% !important;
+}
+
+.markdown-content {
+    padding: 32px;
+    max-width: 980px;
+    min-width: 200px;
+    margin: 0 auto;
+}
+
+@media (max-width: 767px) {
+    .markdown-body {
+        padding: 15px;
+    }
+
+    .markdown-content {
+        padding: 32px 5px;
+    }
+}
+
+.flex {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0%;
+}
+
+.speaker {
+    flex-shrink: 0;
+    display: inline-block;
+    width: 55px;
+    font-weight: bold;
+    vertical-align: top;
+}
+
+.talk {
+    display: inline-block;
+    width: auto;
+    vertical-align: top;
+}
+
+.number ul li {
+    list-style-type: none;
+}
